@@ -9,7 +9,7 @@ int main()
 
     int attempts = 0;
     int guess = 0;
-    int number = rand() % 1000 + 1;
+    int number = rand() % 1000;
 
     while (guess != number)
     {  
