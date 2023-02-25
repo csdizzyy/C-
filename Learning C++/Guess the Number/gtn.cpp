@@ -27,6 +27,6 @@ int main()
             std::cout << "Too Low\n\n";
         }
     }
-    std::cout << "You win!" << std::endl;
+    std::cout << "You won in " << attempts << " attempts!" << std::endl;
     system("timeout /t -1");
 }
