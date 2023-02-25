@@ -22,7 +22,7 @@ int main()
         {
             std::cout << "Too High\n\n";
         }
-        else if (guess < number)
+        if (guess < number)
         {
             std::cout << "Too Low\n\n";
         }
